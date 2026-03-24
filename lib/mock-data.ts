@@ -35,14 +35,68 @@ export function createMockData(): ComparisonData {
         all_geographies: ['Global']
       },
       segments: {
-        'By End-Use*Product Type': {
-          type: 'hierarchical',
-          items: [],
-          hierarchy: {},
-          b2b_hierarchy: {},
-          b2c_hierarchy: {},
-          b2b_items: [],
-          b2c_items: []
+        'By Product Type': {
+          type: 'flat',
+          items: [
+            'Builder/Sculpture Gels (hard gels, structure gels)',
+            'Soak-Off Gel Polish (colour gels)',
+            'Base Coat Gels',
+            'Top Coat Gels (gloss, matte, chrome, no-wipe)',
+            'Treatment/Strengthening Gels',
+            'Gel Extensions (tips, forms)'
+          ],
+          hierarchy: {}
+        },
+        'By Curing Technology': {
+          type: 'flat',
+          items: [
+            'UV Light Cured',
+            'LED Light Cured',
+            'Dual Cure (UV + LED compatible)'
+          ],
+          hierarchy: {}
+        },
+        'By Formulation / Ingredient Profile': {
+          type: 'flat',
+          items: [
+            'Standard Formulation',
+            'HEMA-Free',
+            'Vegan & Cruelty-Free',
+            'X-Free Formulations (5-free, 7-free, 10-free)',
+            'Hypoallergenic / Dermatologically Tested'
+          ],
+          hierarchy: {}
+        },
+        'By End User': {
+          type: 'flat',
+          items: [
+            'Professional / Salon Use',
+            'DIY / At-Home Consumer',
+            'Training Academies & Beauty Schools'
+          ],
+          hierarchy: {}
+        },
+        'By Sales Channel': {
+          type: 'flat',
+          items: [
+            'Direct-to-Professional (brand distributor model)',
+            'Indirect Professional Beauty Wholesale',
+            'Online B2B Platforms',
+            'Online B2C / DTC (Amazon, brand websites)',
+            'Offline Retail Stores'
+          ],
+          hierarchy: {}
+        },
+        'By Application': {
+          type: 'flat',
+          items: [
+            'Natural Nail Overlay',
+            'Nail Extensions',
+            'Nail Art & Design',
+            'Pedicure Applications',
+            'Repair & Reinforcement Applications'
+          ],
+          hierarchy: {}
         }
       }
     },

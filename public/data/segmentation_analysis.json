@@ -1,28 +1,43 @@
 {
   "Global": {
-    "By Type": {
-      "Sub-Normothermic Perfusion (20–34°C)": {},
-      "Warm or Normothermic Perfusion (35–37°C)": {}
+    "By Product Type": {
+      "Builder/Sculpture Gels (hard gels, structure gels)": {},
+      "Soak-Off Gel Polish (colour gels)": {},
+      "Base Coat Gels": {},
+      "Top Coat Gels (gloss, matte, chrome, no-wipe)": {},
+      "Treatment/Strengthening Gels": {},
+      "Gel Extensions (tips, forms)": {}
     },
-    "By Organ Type": {
-      "Liver": {},
-      "Heart": {},
-      "Lung": {},
-      "Kidney": {},
-      "Others (Pancreas, Small bowel / Intestine, Composite Tissues / Limb Perfusion (emerging use cases))": {}
+    "By Curing Technology": {
+      "UV Light Cured": {},
+      "LED Light Cured": {},
+      "Dual Cure (UV + LED compatible)": {}
     },
-    "Application / Use Case": {
-      "Organ Preservation": {},
-      "Viability Assessment": {},
-      "Physiologic Transport": {},
-      "Reconditioning Marginal Organs": {},
-      "Others (Research Use / Protocol development)": {}
+    "By Formulation / Ingredient Profile": {
+      "Standard Formulation": {},
+      "HEMA-Free": {},
+      "Vegan & Cruelty-Free": {},
+      "X-Free Formulations (5-free, 7-free, 10-free)": {},
+      "Hypoallergenic / Dermatologically Tested": {}
     },
     "By End User": {
-      "Hospitals & Clinics": {},
-      "Specialty Clinic/Centers": {},
-      "Transplant Centers": {},
-      "Others (Research Institutes/Centers, Organ Procurement Organizations, etc.)": {}
+      "Professional / Salon Use": {},
+      "DIY / At-Home Consumer": {},
+      "Training Academies & Beauty Schools": {}
+    },
+    "By Sales Channel": {
+      "Direct-to-Professional (brand distributor model)": {},
+      "Indirect Professional Beauty Wholesale": {},
+      "Online B2B Platforms": {},
+      "Online B2C / DTC (Amazon, brand websites)": {},
+      "Offline Retail Stores": {}
+    },
+    "By Application": {
+      "Natural Nail Overlay": {},
+      "Nail Extensions": {},
+      "Nail Art & Design": {},
+      "Pedicure Applications": {},
+      "Repair & Reinforcement Applications": {}
     },
     "By Region": {
       "North America": {
