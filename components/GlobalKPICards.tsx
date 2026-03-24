@@ -274,9 +274,9 @@ export function GlobalKPICards() {
             </div>
           </div>
         </div>
-        <p className="text-[10px] text-gray-500 mt-2 italic">
-          NOTE: All the data in the dashboard is demo data. No Real-world data is related to this.
-        </p>
+        <div className="mt-2 px-3 py-1.5 bg-yellow-50 border border-yellow-300 rounded text-[10px] text-yellow-800 font-medium">
+          ⚠️ NOTE: All the data in the dashboard is demo data. No Real-world data is related to this.
+        </div>
       </div>
     </div>
   )
